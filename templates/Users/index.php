@@ -18,7 +18,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php Hello ?>
+                <?php echo Hello ?>
                 <?php foreach ($users as $user): ?>
                 <tr>
                     <td><?= $this->Number->format($user->user_id) ?></td>
